@@ -1,0 +1,203 @@
+@media (min-width: 640px) {
+    body {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width:960px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:1100px) {
+    body {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+h1 {
+    font-family: Times, serif;
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+}
+
+h3 {
+    font-family: Vivaldi, cursive;
+}
+
+
+.mainpageTitle {
+    border-radius: 9px;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    text-align: center;
+}
+
+#logo {
+    width: 170px;
+}
+
+.nav-var ul {
+    list-style-type: none;
+    float: right;
+}
+
+.menuitem li {
+    float: left;
+    padding: 10px;
+    background-image: linear-gradient(rgb(143, 143, 143), rgb(83, 74, 72), rgb(51, 48, 47));
+}
+
+.menuitem a {
+    padding-right: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(252, 252, 252);
+}
+
+.menuitem li a:hover {
+    background-color: rgb(226, 225, 225);
+    padding: 10px;
+    color: rgb(22, 21, 21);
+    border-radius: 10px;
+}
+
+.cars-featur {
+    background-image: url(fastestCars2021.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100%;
+    height: 1400px;
+    border-radius:  15px 15px 0px 0px;
+    margin-bottom: 0px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+.carinfo{font-size: 50px; text-align: center; color: white; font-family: Colonna MT;transition: .5s;}
+.carinfo:hover{border-radius: 15px; font-size: 60px; background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(10, 9, 37));}
+ .loginform{display:none;}
+a .login .loginform :hover{display:inline-block;} 
+.cardiv{font-family: Verdana, sans-serif; width: 30%;float: left;color: rgb(255, 255, 255); padding: 5%;text-align: center;}
+.CarDivPlace{position: relative;font-family: Verdana, sans-serif;width: 30%;float: right;color: white;text-align: center;padding: 5%}
+.input{font-size: 15px;border-radius: 5px;width: 300px;height: auto;padding: 10px; margin-left: 10px; font-weight: 700;}
+
+.select-css{margin-left: 42px; display: block; padding:15px 2px 5px 60px;font-size: 15px; border-radius: 5px; font-weight: 700;color: #444;width: 80%;box-shadow: 0 1px 0 1px rgba(0,0,0,.04);}
+.SearchBtn a {text-decoration: none;}
+.SearchBtn{padding:10px; margin-top: 10px;font-family: Verdana, sans-serif; font-weight: 700; border-radius: 5px;}
+.SearchBtn:hover{color: aliceblue;background-color: #ff5100;}
+.placediv{padding-left: 20px;color: rgb(255, 255, 255) ;font-family:Verdana, sans-serif;font-weight: 900 ;float: left; }
+.placediv li{list-style-type: none; padding-top :px; padding-bottom :10px; float: left; margin-bottom: 20px;width: 200px;height: 100px;}
+.placeName{background-color: darkorange;border-radius: 5px;}
+.placeName:hover{background-color: rgb(248, 79, 0); cursor:pointer}
+span{font-size: 10px; margin: 0px;}
+
+
+
+
+/* Note Below CSS only for Footer  */
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+  }
+  
+  .footer-dark h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size:16px;
+  }
+  
+  .footer-dark ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  
+  .footer-dark ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer-dark ul a:hover {
+    opacity:0.8;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  .footer-dark .item.text {
+    margin-bottom:36px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  
+  .footer-dark .item.text p {
+    opacity:0.6;
+    margin-bottom:0;
+  }
+  
+  .footer-dark .item.social {
+    text-align:center;
+  }
+  
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+    margin:0 8px;
+    color:#fff;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom:0;
+  }
